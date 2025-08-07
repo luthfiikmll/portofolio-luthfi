@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luthfi Ikmal Fatir</title>
+
+    <!-- My css -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="navbar-container">
+      <div class="logo">
+        <a href="#">Luthfi <span>Ikmal</span></a>
+      </div>
+      <nav class="nav-list" id="nav-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#proyek">Project</a></li>
+        </li>          
+      </ul>
+    </nav>
+    <nav class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+          <i data-feather="menu"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skill</a>
+          <a href="#contact">Contact</a>
+          <a href="#proyek">Project</a>
+        </div>
+      </div> 
+    </nav>
+  </header>
+    <!-- navbar end -->
+
+    <main>
+      <div class="content">
+        <div class="content-description">
+          <h1 class="title">Luthfi Ikmal Fatir</h1>
+
+          <p>I'm, Informatics Engineering</p>
+        </div>
+        <div class="content-image">
+          <img src="img/profile.jpeg" alt="profile" />
+        </div>
+      </div>
+
+      <!-- section About -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Luthfi Ikmal Fatir. I am currently studying
+          Informatics Engineering at UIN Syarif Hidayatullah Jakarta. I have a
+          passion for coding and developing web applications. Welcome to my
+          portfolio!
+        </p>
+      </section>
+      <!-- end -->
+
+      <!-- start artikel -->
+      <article id="skills">
+        <div class="judul">
+          <h2>Skill</h2>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <h2>Figma</h2>
+            <img src="img/figma.png" alt="">
+            <p>
+             Mampu mendesain UI/UX secara efisien menggunakan Figma, termasuk membuat wireframe, prototipe interaktif, dan desain antarmuka yang responsif.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Javascript</h2>
+            <img src="img/javascript.png" alt="">
+            <p>
+            Menguasai dasar-dasar JavaScript untuk membangun elemen interaktif pada website, termasuk manipulasi DOM, event handling, dan logika aplikasi front-end.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Node Js</h2>
+            <img src="img/nodeJS.png" alt="">
+            <p>
+              Memahami konsep backend menggunakan Node.js, termasuk pembuatan REST API, pengelolaan routing, dan integrasi dengan database.
+            </p>
+          </div>
+        </div>
+      </article>
+      <!-- end of artikel -->
+
+      <!-- Proyek -->
+      <section id="proyek">
+        <div class="judul">
+          <h2>Project</h2>
+        </div>
+        <div class="card-container">
+          <div class="card-proyek">
+            <h2>Kreasi</h2>
+            <img src="img/KREASI.jpg" alt="">
+            <p class="deskripsi-proyek">KREASI adalah aplikasi mobile yang dikembangkan sebagai bagian dari Capstone Project pada program Bangkit Academy 2024. Aplikasi ini berfokus pada pengembangan diri berbasis data, dengan fitur utama berupa rekomendasi personalisasi yang diberikan setelah pengguna menyelesaikan tes asesmen.
+               Melalui tes ini, KREASI   menganalisis minat, preferensi, dan kecenderungan pengguna, lalu menghasilkan rekomendasi yang relevan, seperti jalur karier yang sesuai, sumber belajar, atau strategi pengembangan diri.
+            </p>
+            <p class="repo">
+              <a href="https://github.com/kreasi-capstone-project" target="_blank">link repository</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact">
+        <div class="judul-contact">
+          <h2>My Contact</h2>
+        </div>
+
+        <div class="contact-container">
+          <ul>
+            <li>
+              <p><i data-feather="mail"></i> luthfi.ikmal@gmail.com</p>
+              
+            </li>
+            <li>
+              <p><i data-feather="phone"></i> 085881969963</p>
+            </li>
+            <li>
+              <p><i data-feather="map-pin"></i> JL. Masjid Al-Akhyar No.23</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end of contact -->
+
+      <!-- start aside -->
+      
+        <aside>
+          <article>
+            <header>
+              <figure class="image">
+                <img src="img/sosmed.svg" />
+              </figure>
+            </header>
+  
+            <section id="social-media">
+              <h3>Social Media</h3>
+              <div class="social-media-list">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/in/luthfi-ikmal-fatir-91b99324a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/luthfiikmll" target="_blank"><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </article>
+        </aside>
+      </div>
+      <!-- end of aside -->
+    </main>
+
+    <!-- start footer -->
+    <footer class="footer">
+        <p>&#169; 2025, Luthfi Ikmal Fatir All Rights Reserved</p>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+    
+
+    <!-- my js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
